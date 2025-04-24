@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './main/App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<App titulo="cadastro"/>)
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App titulo="cadastro" />);
