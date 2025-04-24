@@ -1,0 +1,22 @@
+$cor-principal: #3e0806;
+
+.tabela { 
+  width: 100% !important;
+  margin-top: 20px;
+
+  th{ 
+    background-color: $cor-principal;
+    color: #fff;
+    border: 1px solid #c0c0c0;
+  }
+  
+  td{
+    border: 1px solid #c0c0c0;
+  }
+}
+
+.card{
+  width: 100%;
+  height: 100px;
+  background-color: $cor-principal;
+}
