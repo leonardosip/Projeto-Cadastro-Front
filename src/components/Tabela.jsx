@@ -11,7 +11,16 @@ import { Link } from 'react-router-dom'
 
 
 const tabela = ({ list, cabecalho, acoes, remover,caminhoEditar }) => (
-  <Table className={"tabela"} size="small" aria-label="a dense table">
+  <Table className={"tabela"} size="small" aria-label="a dense table" 
+  sx={{
+    color: 'white',
+    backgroundColor: '#1a1a1a',
+    '& th, & td': {
+      color: 'white'
+    }
+  }}>
+
+    
     <TableHead>
       <TableRow>
         {cabecalho.map((coluna, key) => (

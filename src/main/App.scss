@@ -1,9 +1,26 @@
+
 .menu{
   margin-bottom: 20px;
 }
 
 .opcoesMenu{
+  
  a{
-  color: #000
+  color: #000,
  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body{
+  background-color: rgb(43, 42, 42);
+}
+
+.conteudo-principal {
+  padding-top: 64px; // ou ajuste conforme a altura do seu AppBar
 }

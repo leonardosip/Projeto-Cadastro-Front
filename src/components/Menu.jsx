@@ -13,7 +13,11 @@ import { Link } from 'react-router-dom'
 const menu = ({ tela, menuOpen, abrirFecharMenu }) => (
 
   <div className="menu">
-    <AppBar position="static" style={{ backgroundColor: "#3e0806" }}>
+    <AppBar position="fixed" style={{ backgroundColor: "#060a3e", borderRadius: 0,
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 1100,}}>
       <Toolbar>
         <IconButton edge="start" color="inherit" aria-label="menu" onClick={() => abrirFecharMenu()}>
           <MenuIcon />

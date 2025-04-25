@@ -5,7 +5,12 @@ import Routes from './Routes'
 import React from 'react'
 
 const app = () =>
-<Routes />
+
+<>
+<div className="conteudo-principal">
+<Routes/>
+</div>
+</>
 
 
 export default app
