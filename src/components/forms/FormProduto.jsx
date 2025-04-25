@@ -38,7 +38,7 @@ const formProduto = ({ updateField, dados, salvarProduto, produto_id }) => (
     <Grid container spacing={1} direction="row" style={{marginTop:10}}>
     <Grid item md={2}>
         <Link to='/'>
-        <Button variant="contained" color="warning" fullWidth>
+        <Button variant="contained" color="error" fullWidth>
           Voltar
         </Button>
         </Link>

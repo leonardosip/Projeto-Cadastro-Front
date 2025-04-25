@@ -20,14 +20,14 @@ const FormContaBancaria =({updateField, dados, salvarContaBancaria, conta_bancar
     <Grid container spacing={1} direction="row" style={{marginTop:10}}>
     <Grid item md={2}>
         <Link to='/listagemContaBancaria'>
-        <Button variant="contained" color="secondary" fullWidth>
+        <Button variant="contained" color="error" fullWidth>
           Voltar
         </Button>
         </Link>
       </Grid>
       <Grid item md={2}>
         <Button variant="contained" color="primary" fullWidth onClick={()=>salvarContaBancaria()}>
-          {conta_bancaria_id ?"Alterar": "Cadastrar"} ContaBancaria
+          {conta_bancaria_id ?"Alterar": "Cadastrar"} Conta Bancaria
         </Button>
       </Grid>
     </Grid>

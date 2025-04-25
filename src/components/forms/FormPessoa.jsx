@@ -27,7 +27,7 @@ const FormPessoa =({updateField, dados, salvarPessoa, pessoa_id}) => (
     <Grid container spacing={1} direction="row" style={{marginTop:10}}>
     <Grid item md={2}>
         <Link to='/listagemPessoa'>
-        <Button variant="contained" color="secondary" fullWidth>
+        <Button variant="contained" color="error" fullWidth>
           Voltar
         </Button>
         </Link>

@@ -20,7 +20,7 @@ const Rotas = () => (
       <Route exact path={`/cadastroPessoa/:pessoa_id`} element={<CadastroPessoa/>} />
       <Route exact path={`/listagemContaBancaria`} element={<ListagemContaBancaria/>} />
       <Route exact path={`/cadastroContaBancaria`} element={<CadastroContaBancaria/>} />
-      <Route exact path={`/cadastroContaBancaria:conta_bancaria_id`} element={<CadastroContaBancaria/>} />
+      <Route exact path={`/cadastroContaBancaria/:conta_bancaria_id`} element={<CadastroContaBancaria/>} />
 
 
       
