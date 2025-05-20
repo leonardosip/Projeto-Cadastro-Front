@@ -2,4 +2,4 @@
 
 ## Tecnologias Ultilizadas: Reactjs : SCSS
 
-Interface grafica criada com reactjs linkando com a API em node, podendo fazer o cadastro de pessoas,produto e conta bancaria
+Interface grafica criada com reactjs linkando com a API em node e banco de dados POSTGRESQL podendo fazer o cadastro de pessoas,produto e conta bancaria
